@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hippocrit.io - Data Analytics for Social Good</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-hippo"></i>
+                    <span class="site-title">hippocrit.io</span>
+                </div>
+                <nav class="nav">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#blog" class="nav-link">Blog</a>
+                    <a href="#videos" class="nav-link">Videos</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+                <button class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Learn Data Analytics for Social Good</h1>
+                <p class="hero-description">
+                    Discover how to use data science and analytics to make a positive impact on humanitarian causes, 
+                    climate change, health outcomes, and other critical global challenges.
+                </p>
+                <div class="hero-actions">
+                    <a href="#blog" class="btn btn--primary">Explore Blog Posts</a>
+                    <a href="#videos" class="btn btn--outline">Watch Videos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Section -->
+    <section id="blog" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Blog Posts</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-card-header">
+                        <span class="category-badge category-badge--climate">Climate</span>
+                        <time class="blog-date">December 15, 2024</time>
+                    </div>
+                    <h3 class="blog-title">Analyzing Climate Data with Python: A Beginner's Guide</h3>
+                    <p class="blog-excerpt">Learn how to work with climate datasets and create meaningful visualizations using Python and matplotlib.</p>
+                    <a href="https://github.com" class="blog-link" target="_blank">Read More <i class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-card-header">
+                        <span class="category-badge category-badge--humanitarian">Humanitarian</span>
+                        <time class="blog-date">December 10, 2024</time>
+                    </div>
+                    <h3 class="blog-title">Humanitarian Crisis Mapping with Open Data</h3>
+                    <p class="blog-excerpt">Explore how open data sources can be used to map and respond to humanitarian crises around the world.</p>
+                    <a href="https://github.com" class="blog-link" target="_blank">Read More <i class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-card-header">
+                        <span class="category-badge category-badge--health">Health</span>
+                        <time class="blog-date">December 5, 2024</time>
+                    </div>
+                    <h3 class="blog-title">Health Data Ethics: Privacy and Bias Considerations</h3>
+                    <p class="blog-excerpt">Understanding the ethical implications of working with health data and strategies for bias mitigation.</p>
+                    <a href="https://github.com" class="blog-link" target="_blank">Read More <i class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-card-header">
+                        <span class="category-badge category-badge--humanitarian">Humanitarian</span>
+                        <time class="blog-date">November 28, 2024</time>
+                    </div>
+                    <h3 class="blog-title">Building Predictive Models for Disaster Response</h3>
+                    <p class="blog-excerpt">Case study on using machine learning to predict resource needs during natural disasters.</p>
+                    <a href="https://github.com" class="blog-link" target="_blank">Read More <i class="fas fa-arrow-right"></i></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="section section--alt">
+        <div class="container">
+            <h2 class="section-title">Educational Videos</h2>
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-thumbnail" onclick="window.open('https://youtube.com', '_blank')">
+                        <i class="fas fa-play-circle"></i>
+                        <span class="video-duration">15:32</span>
+                    </div>
+                    <div class="video-content">
+                        <span class="category-badge category-badge--humanitarian">Humanitarian</span>
+                        <h3 class="video-title">Introduction to Humanitarian Data Science</h3>
+                        <p class="video-description">Overview of how data science is being used in humanitarian contexts</p>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail" onclick="window.open('https://youtube.com', '_blank')">
+                        <i class="fas fa-play-circle"></i>
+                        <span class="video-duration">22:45</span>
+                    </div>
+                    <div class="video-content">
+                        <span class="category-badge category-badge--climate">Climate</span>
+                        <h3 class="video-title">Climate Data Visualization Techniques</h3>
+                        <p class="video-description">Best practices for visualizing climate and weather data</p>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail" onclick="window.open('https://youtube.com', '_blank')">
+                        <i class="fas fa-play-circle"></i>
+                        <span class="video-duration">18:20</span>
+                    </div>
+                    <div class="video-content">
+                        <span class="category-badge category-badge--health">Health</span>
+                        <h3 class="video-title">Health Analytics Privacy Workshop</h3>
+                        <p class="video-description">Working with sensitive health data while protecting privacy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Repositories Section -->
+    <section id="repositories" class="section">
+        <div class="container">
+            <h2 class="section-title">Open Source Projects</h2>
+            <div class="repo-grid">
+                <div class="repo-card">
+                    <div class="repo-header">
+                        <h3 class="repo-name">
+                            <i class="fab fa-github"></i>
+                            climate-data-toolkit
+                        </h3>
+                        <div class="repo-stats">
+                            <span class="repo-language">Python</span>
+                            <span class="repo-stars"><i class="fas fa-star"></i> 156</span>
+                        </div>
+                    </div>
+                    <p class="repo-description">Python tools for processing and analyzing climate datasets</p>
+                    <a href="https://github.com" class="btn btn--sm btn--outline" target="_blank">View Repository</a>
+                </div>
+
+                <div class="repo-card">
+                    <div class="repo-header">
+                        <h3 class="repo-name">
+                            <i class="fab fa-github"></i>
+                            humanitarian-mapping
+                        </h3>
+                        <div class="repo-stats">
+                            <span class="repo-language">JavaScript</span>
+                            <span class="repo-stars"><i class="fas fa-star"></i> 89</span>
+                        </div>
+                    </div>
+                    <p class="repo-description">Open source tools for crisis mapping and humanitarian response</p>
+                    <a href="https://github.com" class="btn btn--sm btn--outline" target="_blank">View Repository</a>
+                </div>
+
+                <div class="repo-card">
+                    <div class="repo-header">
+                        <h3 class="repo-name">
+                            <i class="fab fa-github"></i>
+                            health-analytics-privacy
+                        </h3>
+                        <div class="repo-stats">
+                            <span class="repo-language">R</span>
+                            <span class="repo-stars"><i class="fas fa-star"></i> 203</span>
+                        </div>
+                    </div>
+                    <p class="repo-description">Privacy-preserving techniques for health data analysis</p>
+                    <a href="https://github.com" class="btn btn--sm btn--outline" target="_blank">View Repository</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section section--alt">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">About hippocrit.io</h2>
+                <div class="about-text">
+                    <p>
+                        hippocrit.io is a platform dedicated to teaching data analytics, data science, and data engineering 
+                        with a focus on creating positive social impact. We believe that data has the power to solve some of 
+                        the world's most pressing challenges.
+                    </p>
+                    <p>
+                        Our mission is to equip data professionals, researchers, and students with the knowledge and tools 
+                        needed to work effectively with humanitarian data, climate datasets, health information, and other 
+                        data sources that can drive meaningful change in the world.
+                    </p>
+                    <div class="focus-areas">
+                        <div class="focus-item">
+                            <i class="fas fa-hands-helping"></i>
+                            <h4>Humanitarian Data</h4>
+                            <p>Crisis mapping, disaster response, and refugee analytics</p>
+                        </div>
+                        <div class="focus-item">
+                            <i class="fas fa-leaf"></i>
+                            <h4>Climate Science</h4>
+                            <p>Environmental monitoring and climate change analysis</p>
+                        </div>
+                        <div class="focus-item">
+                            <i class="fas fa-heartbeat"></i>
+                            <h4>Health Analytics</h4>
+                            <p>Public health insights and medical data analysis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-hippo"></i>
+                        <span>hippocrit.io</span>
+                    </div>
+                    <p>Data analytics for social good</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:info@hippocrit.io" target="_blank"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#videos">Videos</a></li>
+                        <li><a href="#repositories">Projects</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 hippocrit.io. Built for social good.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
